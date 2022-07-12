@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
     - setuptools_scm
   run:
-    - geopy >=1.18.1
+    - pyshp >=2.1
     - matplotlib-base >=2.2.2
     - networkx >=2.0.0
     - numpy >=1.14.3
