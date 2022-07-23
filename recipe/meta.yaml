@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tropycal-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/64/90/058f40af280a4b6de0eea661a64618d54774b8b43ce895b83fd22ea821be/tropycal-0.5.1.tar.gz
   sha256: 61fe096a4361c753cfe6f34f5558dc9fddf845b4abf00366aa07d9844dc9b070
 
 build:
