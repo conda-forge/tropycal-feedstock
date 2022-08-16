@@ -1,5 +1,5 @@
 {% set name = "tropycal" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/55/d2/9b02e0a01a8c7384ce20b10e30bc4c51ef8a22625a8b27c117c113d6a056/tropycal-0.5.2.tar.gz
-  sha256: 5b815ca4faf003929ed05aa4ea34b8c18be90a993d93894e9912a7aa7b0156e1
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tropycal-{{ version }}.tar.gz
+  sha256: 61fe096a4361c753cfe6f34f5558dc9fddf845b4abf00366aa07d9844dc9b070
 
 build:
   number: 0
