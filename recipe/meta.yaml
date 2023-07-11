@@ -1,5 +1,5 @@
 {% set name = "tropycal" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tropycal-{{ version }}.tar.gz
-  sha256: a310e2785b0f7039bc2848cd87b7f6c01acd69a71128def7e0a3e2e07f3358fc
+  sha256: 7dc9f61aa587eec13b65c325e91933df6e8712c6118b2e320f22cb92482d1042
 
 build:
   number: 0
